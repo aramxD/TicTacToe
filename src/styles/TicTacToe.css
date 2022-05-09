@@ -1,0 +1,48 @@
+* {
+    background: rgb(255, 255, 255, .9);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+table td {
+    width: 150px;
+    height: 150px;
+}
+
+.winner {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.winner p {
+    margin: 0;
+}
+
+.turno {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turno p {
+    margin: 0;
+}
+
+.winner .nes-icon {
+    margin: 15px;
+    transform: scale(1.5);
+}
